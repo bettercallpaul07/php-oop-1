@@ -3,7 +3,7 @@
 
 class Movie
 {
-    public $name; //viene vista come proprietà della classe
+    public $name;
     public $year;
     public $img;
     public $genre;
@@ -17,10 +17,6 @@ class Movie
         $this->img = $_img;
         $this->genre = $_genre;
         $this->duration = $_duration;
-    }
-
-    public function getNome()
-    {
     }
 
 
